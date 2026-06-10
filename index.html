@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Barakat Aram</title>
+    <style>
+        css, h1{
+            color: white;
+            text-transform: uppercase;
+            text-shadow: 
+                0 0 5px #fff, 
+                0 0 10px #fff, 
+                0 0 20px #a020f0, 
+                0 0 40px #a020f0, 
+                0 0 80px #a020f0;
+            }
+        css, footer img{        
+                transition: transform 0.3s ease; 
+                cursor: pointer;
+            }
+        css, footer img:hover {
+            transform: scale(1.2);
+        }
+        
+        html, body{
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        header{
+            padding: 30px;
+            background-color: #1a1a1a
+        }
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid rgb(57, 54, 77);
+            background-color: bisque}
+        css, .semana{
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #a020f0;
+            transition: transform 0.3s ease;
+            text-align: left;
+        }
+        css, .semana :hover{
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(160, 32, 240, 0.2);
+        }
+        css, .semana h2{
+            margin-top: 0;
+            color: #39364d;
+        }
+    </style>
+</head> 
+<body>
+    <header>
+        <h1>Bitácora Segunda y Tercera Unidad</h1>
+    </header>
+    <main>
+        <h4>Contenido Página WEB</h4>
+        <div class="semana">
+            <h2>Semana 1: Introducción</h2>
+            <p>En esta semana aprendimos las bases de HTML5 y la estructura semántica de las páginas web.</p>
+            <div class="pdf.container">
+                <embed src="Recursos/Introducción Arduino Aram.pdf" type="application/pdf" width="100%" height="350px">
+                
+            </div>
+        </div>
+        <div class="semana">
+            <h2>Semana 2: Estilos con LED</h2>
+            <p>Cambio de color en Luces LED, hecho con Tinkercad</p>
+            <h2>Video Explicativo</h2>
+
+    <video controls width="100%">
+        <source src="Recursos/Luces LED.mp4" type="video/mp4">
+        </div>
+    </main>
+    <footer>
+        <span>@aa._barakat</span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="25" width="100">
+
+    </footer>
+</body>
+</html>
